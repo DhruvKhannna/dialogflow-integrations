@@ -31,9 +31,9 @@ app.use(express.json());
 // Upon closure the webhook is removed from spark
 
 // Insert your values here
-const sparkAccessToken ='Place your spark personal access token here';
-const targetUrl = 'Place you servers URL here';
-const projectId = 'Place your dialogflow projectId here';
+const sparkAccessToken ='YTllYjc1ZTktZGMzNi00NDllLTlkOWYtZGU4ZjFhYjI5MWNiOTllMGY3MWEtMjc0_P0A1_b6609cee-56d7-44a5-9f67-2e1759d7cfaf';
+const targetUrl = 'https://chatbot-flaskapp.herokuapp.com/webhook';
+const projectId = 'chatbot-dflow';
 
 const sessionClient = new dialogflowSessionClient(projectId);
 
